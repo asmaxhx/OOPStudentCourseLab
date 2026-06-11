@@ -14,12 +14,8 @@ public class Instructor : Person
 
     public override void DisplayDetails()
     {
-        Console.WriteLine("Instructor Details");
-        Console.WriteLine("------------------");
         Console.WriteLine($"Instructor ID: {InstructorId}");
-
         base.DisplayDetails();
-
         Console.WriteLine($"Specialism: {Specialism}");
     }
 }

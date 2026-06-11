@@ -2,32 +2,8 @@
 
 public class Person
 {
-    private string name;
-    private string email;
-
-    public string Name
-    {
-        get { return name; }
-        set
-        {
-            if (!string.IsNullOrWhiteSpace(value))
-            {
-                name = value;
-            }
-        }
-    }
-
-    public string Email
-    {
-        get { return email; }
-        set
-        {
-            if (!string.IsNullOrWhiteSpace(value))
-            {
-                email = value;
-            }
-        }
-    }
+    public string Name { get; set; }
+    public string Email { get; set; }
 
     public Person(string name, string email)
     {
